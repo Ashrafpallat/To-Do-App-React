@@ -1,92 +1,102 @@
 /* External CSS */
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh; /* Full viewport height */
-    margin: 0;
-    background-color: #f0f0f0; /* Optional background color */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /* Full viewport height */
+  margin: 0;
+  background-color: #f0f0f0;
+  /* Optional background color */
 }
+
 .to-do-list {
-    max-width: 400px;
-    margin: 0 auto;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    background-color: #f9f9f9;
-  }
-  
-  .to-do-list h1 {
-    font-size: 24px;
-    margin-bottom: 20px;
-    text-align: center;
-  }
-  
-  input[type="text"] {
-    width: calc(100% - 80px);
-    padding: 8px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
-  
-  input[type="text"]:focus {
-    outline: none;
-    border-color: #007bff;
-  }
-  
-  .add-button {
-    padding: 8px 12px;
-    margin-left: 10px;
-    background-color: #007bff;
-    border: none;
-    border-radius: 5px;
-    color: #fff;
-    cursor: pointer;
-  }
-  
-  .add-button:hover {
-    background-color: #0056b3;
-  }
-  
-  ol {
-    list-style-type: none;
-    padding-left: 0;
-  }
-  
-  li {
-    margin-bottom: 10px;
-    padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    background-color: #fff;
-  }
-  
-  .text {
-    margin-right: 10px;
-  }
-  
-  .delet-button,
-  .move-button {
-    padding: 4px 8px;
-    margin-left: 10px;
-    border: none;
-    border-radius: 3px;
-    background-color: #dc3545;
-    color: #fff;
-    cursor: pointer;
-  }
-  
-  .move-button {
-    background-color: #17a2b8;
-  }
-  
-  .delet-button:hover,
-  .move-button:hover {
-    background-color: #bd2130;
-  }
-  
-  .move-button:hover {
-    background-color: #138496;
-  }
-  
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.to-do-list h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+input[type="text"] {
+  width: calc(100% - 80px);
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.add-button {
+  padding: 8px 12px;
+  margin-left: 10px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.add-button:hover {
+  background-color: #0056b3;
+}
+
+ol {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+li {
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.text {
+  margin-right: 10px;
+}
+
+.delet-button,
+.move-button {
+  padding: 4px 8px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 3px;
+  background-color: #dc3545;
+  color: #fff;
+  cursor: pointer;
+}
+
+.move-button {
+  background-color: #17a2b8;
+}
+
+.delet-button:hover,
+.move-button:hover {
+  background-color: #bd2130;
+}
+
+.move-button:hover {
+  background-color: #138496;
+}
+
+.heading {
+  text-shadow:
+    -1px -1px 0 #fff,
+    1px -1px 0 #fff,
+    -1px 1px 0 #fff,
+    1px 1px 0 #fff;
+}
